@@ -239,13 +239,13 @@ html {
 
 .skill-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr) );
     gap: 2rem;
 }
 
 .skill-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 1.5rem;
     background: white;
@@ -265,12 +265,6 @@ html {
     color: #3498db;
 }
  
-
-.skill-item:hover i {
-  color: #1abc9c; 
-  text-shadow: 0 0 10px rgba(26, 188, 156, 0.6);
-}
-
 .skill-item span {
     font-weight: 600;
     color: #2c3e50;
