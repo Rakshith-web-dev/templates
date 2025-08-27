@@ -245,7 +245,7 @@ html {
 
 .skill-item {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding: 1.5rem;
     background: white;
